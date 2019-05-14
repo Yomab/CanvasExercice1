@@ -1,0 +1,10 @@
+var c = document.getElementById("mon_canvas");
+ var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(50,100);
+ctx.lineTo(300,50);
+ctx.lineTo(300,150);
+ctx.strokeStyle = "sienna";
+ctx.lineWidth = 2;
+ctx.stroke();
+ctx.closePath();
